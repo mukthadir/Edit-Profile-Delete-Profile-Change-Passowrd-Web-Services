@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://webstrar13.fulton.asu.edu/Page9/Service1.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="saveData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userInfo" nillable="true" type="q1:ArrayOfKeyValueOfstringstring" />
+        <xs:element minOccurs="0" name="fileName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="saveDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="saveDataResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modifyUserDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userLatestInfo" nillable="true" type="q2:ArrayOfKeyValueOfstringstring" />
+        <xs:element minOccurs="0" name="fileName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="modifyUserDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="modifyUserDetailsResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="deleteUserResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="displayUserDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="displayUserDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="displayUserDetailsResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forgotPassowrd">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userCredentials" nillable="true" type="q3:ArrayOfKeyValueOfstringstring" />
+        <xs:element minOccurs="0" name="fileName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forgotPassowrdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="forgotPassowrdResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="saveData1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userInfo" nillable="true" type="q4:ArrayOfKeyValueOfstringstring" />
+        <xs:element minOccurs="0" name="fileName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="saveData1Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="saveData1Result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PeopleTravellingToSameDestination">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="destination" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="filename" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PeopleTravellingToSameDestinationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PeopleTravellingToSameDestinationResult" nillable="true" type="q5:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

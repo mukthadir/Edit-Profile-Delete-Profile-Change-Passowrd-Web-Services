@@ -1,0 +1,6 @@
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\EditProfile\bin\EditProfile.dll.config
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\EditProfile\bin\EditProfile.dll
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\EditProfile\bin\EditProfile.pdb
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\EditProfile\obj\Release\EditProfile.csprojResolveAssemblyReference.cache
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\EditProfile\obj\Release\EditProfile.dll
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\EditProfile\obj\Release\EditProfile.pdb

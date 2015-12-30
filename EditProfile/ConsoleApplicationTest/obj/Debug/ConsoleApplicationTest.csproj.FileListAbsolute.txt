@@ -1,0 +1,6 @@
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\ConsoleApplicationTest\bin\Debug\ConsoleApplicationTest.exe.config
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\ConsoleApplicationTest\bin\Debug\ConsoleApplicationTest.exe
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\ConsoleApplicationTest\bin\Debug\ConsoleApplicationTest.pdb
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\ConsoleApplicationTest\obj\Debug\ConsoleApplicationTest.csprojResolveAssemblyReference.cache
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\ConsoleApplicationTest\obj\Debug\ConsoleApplicationTest.exe
+C:\Users\Mukthadir\Desktop\DSODAssignment3Part3\EditProfile\ConsoleApplicationTest\obj\Debug\ConsoleApplicationTest.pdb
